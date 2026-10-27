@@ -1,0 +1,20 @@
+{
+  "FileVersion": 3,
+  "Version": 606,
+  "VersionName": "0.6.6",
+  "FriendlyName": "Unreal to Isaac USD",
+  "Description": "Export the open map, selected actors/components or selected static mesh assets to Isaac Sim USD. Optional non-destructive mesh optimization. Exports spline mesh deformation as static USD geometry.",
+  "Category": "Importers",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "UnrealUsdBridge",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "SupportedTargetPlatforms": [
+    "Win64"
+  ]
+}

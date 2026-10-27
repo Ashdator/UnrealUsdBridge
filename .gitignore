@@ -1,0 +1,29 @@
+# Generated Unreal files
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+.vs/
+*.sln
+*.vcxproj*
+*.pdb
+# Python caches and local environments
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Local build/test/conversion output
+/build/
+/work/
+*.log
+*.usda
+*.usdc
+*.usd
+*.uasset
+*.umap
+*.zip
+.DS_Store
+Thumbs.db
