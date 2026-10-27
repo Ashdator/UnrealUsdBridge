@@ -59,6 +59,26 @@ In 0.6.6, Virtual Texture Feature Switch follows its non-virtual **No** input. P
 
 **Fresh extraction is required** to recover branches previously stored only as unsupported markers. A USD-only retry cannot reconstruct source graphs absent from the manifest.
 
+## Screenshots
+
+### Conversion settings
+
+![Unreal to Isaac USD conversion settings](docs/images/conversion-settings.png)
+
+The Unreal plugin window shows export scope, optional scene elements, headless conversion and mesh optimization settings.
+
+### Material transfer and editable controls
+
+**Source material in Unreal Engine**
+
+![Unreal Engine pavement material and parameters](docs/images/unreal-material-controls.png)
+
+**Converted material in Isaac Sim**
+
+![Isaac Sim pavement material and editable parameters](docs/images/isaac-material-controls.png)
+
+These screenshots show the same pavement material with transferred texture maps and editable parameters, including UV scale, rotation, roughness and normal strength. Lighting and camera views differ between the applications.
+
 ## Documentation
 
 - [Complete user guide and conversion options](docs/USER_GUIDE.md)
